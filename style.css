@@ -1,0 +1,162 @@
+/* CSS Reset  */
+body {
+    font-family: "Baloo Bhai 2", cursive;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    background: url("gym.jpg");
+  }
+  .left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    margin-bottom: 0px;
+  }
+  .left img {
+    width: 116px;
+    /* invert function turns black img to white and vice versa  */
+    filter: invert(100%);
+    padding-left: 23px;
+    margin-bottom: 0px;
+  }
+  .left h3 {
+    color: aqua;
+    text-align: center;
+    margin-top: 2px;
+    line-height: 2px;
+    font-size: 16px;
+  }
+  .mid {
+    /*  if you want to bring anything to center then 
+      first display as block
+      then set width
+      then give margin as auto */
+    display: block;
+    width: 45%;
+    margin: 29px auto;
+  
+    /* border: 2px solid red; */
+  }
+  .right {
+    position: absolute;
+    top: 10px;
+    right: 23px;
+    display: inline-block;
+    /* border: 2px solid red; */
+  }
+  .right .btn {
+    margin: 0px 12px;
+    padding: 4px 14px;
+    background-color: #18130f;
+    border: 2px solid grey;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: "Baloo Bhai 2", cursive;
+  }
+  .btn:hover {
+    color: aqua;
+    background-color: #211d1b;
+  }
+  .navbar li {
+    display: inline-block;
+  }
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+  }
+  .navbar li a:hover,
+  .navbar li a.active {
+    color: aqua;
+    text-decoration: underline;
+    font-size: 14px;
+  }
+  .container2 {
+    display: block;
+    margin: 200px 40px;
+    border: 2px solid white;
+    margin-top: 120px;
+    margin-bottom: 70px;
+    width: 30%;
+    padding: 5px 20px;
+    border-radius: 14px;
+  }
+  .form-in input {
+    text-align: center;
+    display: inline-block;
+    width: 353px;
+    margin: 10px;
+    padding: 2px;
+    font-size: 18px;
+    font-family: "Baloo Bhai 2", cursive;
+  }
+  
+  form .btn {
+    margin: 0px 12px;
+    padding: 4px 14px;
+    background-color: #18130f;
+    border: 2px solid grey;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: "Baloo Bhai 2", cursive;
+  }
+  .container2 h1 {
+    text-align: center;
+  }
+  form #submit {
+    display: inline-block;
+    width: 40%;
+    margin-left: 15px;
+    padding: 5px 15px;
+  }
+  form #reset {
+    display: inline-block;
+    width: 20%;
+    margin: 2px 15px;
+    padding: auto;
+  }
+  form .rbtn {
+    padding-left: 90px;
+  }
+  
+  /* for social icons */
+      .fa {
+        padding: 10px;
+        font-size: 14px;
+        width: 8px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        margin: 18px 3px;
+        border-radius: 40%;
+      }
+  
+      .fa:hover {
+        opacity: 0.7;
+      }
+  
+      .fa-facebook {
+        background: #3b5998;
+        color: white;
+      }
+  
+      .fa-twitter {
+        background: #55acee;
+        color: white;
+      }
+  
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+  
+      .fa-instagram {
+        background: #125688;
+        color: white;
+      }
